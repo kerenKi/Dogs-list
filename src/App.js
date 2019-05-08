@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
-import DogsList from './components/DogList'
+import DogsListContainer from './components/DogListContainer'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-     <h1>Hello again</h1>
       </header>
       <main>
-        <DogsList />
+        <DogsListContainer />
       </main>
     </div>
   );
