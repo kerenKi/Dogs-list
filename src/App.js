@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import DogsList from './components/DogList'
 
 function App() {
   return (
@@ -7,8 +8,12 @@ function App() {
       <header className="App-header">
      <h1>Hello again</h1>
       </header>
+      <main>
+        <DogsList />
+      </main>
     </div>
   );
 }
+
 
 export default App;
